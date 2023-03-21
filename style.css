@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  /* color: whitesmoke; */
+  color: #0a2351;
+}
+
+.pembungkus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 64px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 32px 8px rgba(68, 68, 68, 0.6);
+}
+
+h2 {
+  font-size: 32pt;
+}
+
+.finput {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.boxinput {
+  height: 24px;
+  width: 128px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 4px;
+  border-color: #0a2351;
+  color: #0a2351;
+  border: 0.025px solid grey !important;
+  margin: 10px;
+}
+
+.boxsubmit {
+  background-color: #94bbe9;
+  border-radius: 4px;
+  height: 24px;
+  width: 64px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 8px;
+  border: none;
+  margin-bottom: 24px;
+}
